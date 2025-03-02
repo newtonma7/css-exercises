@@ -14,6 +14,27 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
+.header{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+ul{
+  display:flex;
+  margin-right:auto;
+  gap: 16px;
+}
+
+button{
+  margin: 16px;
+}
+
+.profile-image{
+  flex-shrink: 0;
+}
+
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);

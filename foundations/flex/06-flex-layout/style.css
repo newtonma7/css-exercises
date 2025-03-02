@@ -7,6 +7,60 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+body{
+  display:flex;
+  flex-direction: column;
+}
+
+ul{
+  display:flex;
+  gap: 16px;
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+.header, .footer{
+  display:flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+}
+
+.left-links{
+ margin-right: auto;
+}
+
+.right-links{
+  margin-left: auto;
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+button{
+  padding: 8px 16px;
+}
+
+.footer{
+  background-color: #eeeeee;
+  margin-top:auto;
+  padding: 8px;
+}
+
 img {
   width: 600px;
 }
